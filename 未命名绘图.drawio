@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-09T06:05:52.442Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="fZ8LpybJq9meCnkTXSOL" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-10T02:21:56.247Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="iyzFPjByQdGeDzTPmClf" version="24.3.1" type="github">
   <diagram name="第 1 页" id="w1na8V84WTgznCSOoCIz">
     <mxGraphModel dx="1050" dy="530" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -18,19 +18,6 @@
         </mxCell>
         <mxCell id="V-vGfC3Jyy6Ihq8TZDpE-4" value="核心交换机" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.design.blank_device;resIcon=mxgraph.cisco_safe.design.l3_switch;" parent="1" vertex="1">
           <mxGeometry x="305" y="213" width="50" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="V-vGfC3Jyy6Ihq8TZDpE-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" parent="1" source="V-vGfC3Jyy6Ihq8TZDpE-5" target="V-vGfC3Jyy6Ihq8TZDpE-25" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="V-vGfC3Jyy6Ihq8TZDpE-42" value="镜像流量" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="V-vGfC3Jyy6Ihq8TZDpE-5" target="V-vGfC3Jyy6Ihq8TZDpE-40" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="355" y="447" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="V-vGfC3Jyy6Ihq8TZDpE-5" value="云平台接入交换机" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=fibre_channel_fabric_switch;fillColor=#FAFAFA;strokeColor=#005073;" parent="1" vertex="1">
-          <mxGeometry x="305" y="415.5" width="50" height="73" as="geometry" />
         </mxCell>
         <mxCell id="V-vGfC3Jyy6Ihq8TZDpE-6" value="出口相关网络设备、安全设备" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="125" width="120" height="60" as="geometry" />
@@ -64,22 +51,41 @@
         <mxCell id="V-vGfC3Jyy6Ihq8TZDpE-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" parent="1" source="V-vGfC3Jyy6Ihq8TZDpE-20" target="V-vGfC3Jyy6Ihq8TZDpE-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V-vGfC3Jyy6Ihq8TZDpE-25" value="云平台服务器区域" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/server_farm.svg;" parent="1" vertex="1">
-          <mxGeometry x="160" y="427" width="50" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="V-vGfC3Jyy6Ihq8TZDpE-32" value="其他服务器" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.server_farm" parent="1" vertex="1">
           <mxGeometry x="120" y="315" width="50" height="32" as="geometry" />
         </mxCell>
         <mxCell id="V-vGfC3Jyy6Ihq8TZDpE-36" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.125;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.99;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;" parent="1" source="V-vGfC3Jyy6Ihq8TZDpE-4" target="V-vGfC3Jyy6Ihq8TZDpE-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V-vGfC3Jyy6Ihq8TZDpE-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;shape=link;" parent="1" source="V-vGfC3Jyy6Ihq8TZDpE-4" target="V-vGfC3Jyy6Ihq8TZDpE-5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="330" y="317" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="V-vGfC3Jyy6Ihq8TZDpE-40" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;数据安全检查系统&lt;br&gt;&lt;/p&gt;" style="strokeColor=#666666;html=1;labelPosition=center;align=center;spacingLeft=0;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.dell.poweredge_r540;verticalLabelPosition=bottom;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="610" y="426.5" width="162" height="27" as="geometry" />
+          <mxGeometry x="620" y="377.5" width="162" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="8WT0YFu6mxfuKEoXJYbm-6" value="华为云服务器区域" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="186" y="344" width="184" height="186" as="geometry" />
+        </mxCell>
+        <mxCell id="8WT0YFu6mxfuKEoXJYbm-11" value="镜像流量" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8WT0YFu6mxfuKEoXJYbm-2" target="V-vGfC3Jyy6Ihq8TZDpE-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8WT0YFu6mxfuKEoXJYbm-2" value="云平台E9000交换网板" style="shape=image;html=1;verticalAlign=middle;verticalLabelPosition=middle;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/software-engineering-and-video-gaming/512/507_Board_chip_circuit_network_electronic_Hardware_Engineering_Internet-128.png;imageBackground=default;labelPosition=left;align=right;" vertex="1" parent="1">
+          <mxGeometry x="311" y="370" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="8WT0YFu6mxfuKEoXJYbm-7" value="云服务器" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="199" y="456" width="157" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8WT0YFu6mxfuKEoXJYbm-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/whcompare-servers-web-hosting/50/cloud-web-hosting-128.png" vertex="1" parent="1">
+          <mxGeometry x="256.5" y="465" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="8WT0YFu6mxfuKEoXJYbm-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/whcompare-servers-web-hosting/50/cloud-web-hosting-128.png" vertex="1" parent="1">
+          <mxGeometry x="309" y="465" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="8WT0YFu6mxfuKEoXJYbm-5" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/whcompare-servers-web-hosting/50/cloud-web-hosting-128.png" vertex="1" parent="1">
+          <mxGeometry x="204" y="465" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="8WT0YFu6mxfuKEoXJYbm-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;shape=link;" edge="1" parent="1" source="V-vGfC3Jyy6Ihq8TZDpE-4" target="8WT0YFu6mxfuKEoXJYbm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8WT0YFu6mxfuKEoXJYbm-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.847;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="8WT0YFu6mxfuKEoXJYbm-2" target="8WT0YFu6mxfuKEoXJYbm-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
