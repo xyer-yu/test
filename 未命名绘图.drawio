@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-10T02:21:56.247Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="iyzFPjByQdGeDzTPmClf" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-10T02:35:35.212Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="Tx5f78uS4-DaezutFVWx" version="24.3.1" type="github">
   <diagram name="第 1 页" id="w1na8V84WTgznCSOoCIz">
     <mxGraphModel dx="1050" dy="530" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -37,13 +37,14 @@
         <mxCell id="V-vGfC3Jyy6Ihq8TZDpE-17" value="&lt;font color=&quot;#000000&quot;&gt;引流交换机&lt;/font&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.hub;" parent="1" vertex="1">
           <mxGeometry x="440" y="310" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="V-vGfC3Jyy6Ihq8TZDpE-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" parent="1" source="V-vGfC3Jyy6Ihq8TZDpE-18" edge="1">
+        <mxCell id="V-vGfC3Jyy6Ihq8TZDpE-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;" parent="1" edge="1" target="V-vGfC3Jyy6Ihq8TZDpE-40">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="722" y="425" as="targetPoint" />
+            <mxPoint x="705" y="372" as="targetPoint" />
+            <mxPoint x="704.8716216216217" y="258" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V-vGfC3Jyy6Ihq8TZDpE-18" value="&lt;font color=&quot;#000000&quot;&gt;管理交换机&lt;/font&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.router;" parent="1" vertex="1">
-          <mxGeometry x="672" y="228" width="100" height="30" as="geometry" />
+        <mxCell id="V-vGfC3Jyy6Ihq8TZDpE-18" value="&lt;font color=&quot;#000000&quot;&gt;管理交换机&lt;/font&gt;" style="fontColor=#0066CC;verticalAlign=middle;verticalLabelPosition=middle;labelPosition=right;align=left;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.router;" parent="1" vertex="1">
+          <mxGeometry x="655" y="228" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="V-vGfC3Jyy6Ihq8TZDpE-20" value="办公相关区域，包含相关网络设备、安全设备" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="205.5" width="120" height="60" as="geometry" />
@@ -58,7 +59,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V-vGfC3Jyy6Ihq8TZDpE-40" value="&lt;p style=&quot;line-height: 100%;&quot;&gt;数据安全检查系统&lt;br&gt;&lt;/p&gt;" style="strokeColor=#666666;html=1;labelPosition=center;align=center;spacingLeft=0;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.rack.dell.poweredge_r540;verticalLabelPosition=bottom;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="620" y="377.5" width="162" height="27" as="geometry" />
+          <mxGeometry x="624" y="380" width="162" height="27" as="geometry" />
         </mxCell>
         <mxCell id="8WT0YFu6mxfuKEoXJYbm-6" value="华为云服务器区域" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="186" y="344" width="184" height="186" as="geometry" />
@@ -86,6 +87,15 @@
         </mxCell>
         <mxCell id="8WT0YFu6mxfuKEoXJYbm-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.847;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="8WT0YFu6mxfuKEoXJYbm-2" target="8WT0YFu6mxfuKEoXJYbm-7">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8WT0YFu6mxfuKEoXJYbm-13" value="3网板 10GE3/17/16" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="387" y="396" width="68" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="8WT0YFu6mxfuKEoXJYbm-15" value="GE 0/0/8" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="301" width="51" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="8WT0YFu6mxfuKEoXJYbm-16" value="GE 0/0/20" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="265.5" width="62" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
